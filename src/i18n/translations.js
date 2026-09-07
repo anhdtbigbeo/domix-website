@@ -1,0 +1,220 @@
+export const translations = {
+  vi: {
+    nav: {
+      brandSub: 'AI TECHNOLOGY COMPANY',
+      home: 'Trang chủ',
+      ecosystem: 'Hệ sinh thái',
+      products: 'Sản phẩm',
+      solutions: 'Giải pháp',
+      technology: 'Công nghệ',
+      business: 'Doanh nghiệp',
+      about: 'Về DOMIX',
+      support: 'Hỗ trợ',
+      contact: 'Liên hệ',
+      exploreBtn: 'Khám phá DOMIX AI',
+      dropdownWorkspace: 'DOMIX AI Workspace',
+      dropdownWorkspaceSub: 'Super-App Sáng Tạo AI',
+      dropdownStudio: 'AI Video & Voice Studio',
+      dropdownStudioSub: 'Render 4K & Lồng tiếng TTS',
+      dropdownMobile: 'Ứng dụng Mobile App',
+      dropdownMobileSub: 'Trải nghiệm trên iOS & Android'
+    },
+    hero: {
+      laurelBadge: '🇻🇳 THƯƠNG HIỆU CÔNG NGHỆ AI VIỆT NAM — Chuẩn ISO/IEC & Dữ Liệu Mã Hóa Đỉnh Cao',
+      heroTagline: 'TIÊN PHONG CÔNG NGHỆ TRÍ TUỆ NHÂN TẠO VIỆT NAM — VƯƠN TẦM QUỐC TẾ',
+      heroTitle1: 'Đột Phá Trí Tuệ Nhân Tạo',
+      heroTitle2: 'Tối Ưu Quy Trình & Nội Dung Số.',
+      heroSub: 'CÔNG TY TNHH CÔNG NGHỆ DOMIX phát triển các giải pháp trí tuệ nhân tạo (AI) Make-in-Vietnam tiên phong, giúp cá nhân và doanh nghiệp sản xuất nội dung đỉnh cao, tự động hóa quy trình và chinh phục thị trường toàn cầu.',
+      btnMobileApp: 'Tải DOMIX Mobile App',
+      btnMobileAppSub: 'Ứng dụng di động (iOS / Android)',
+      btnDesktopApp: 'Khám phá DOMIX Desktop',
+      btnDesktopAppSub: 'Nền tảng Web & Workspace',
+      auditedTitle: 'Hạ tầng điện toán đám mây & bảo mật dữ liệu doanh nghiệp',
+      audit1: 'SSL 256-BIT ENCRYPTED',
+      audit2: 'ENTERPRISE CLOUD SLAs',
+      audit3: 'DATA PRIVACY COMPLIANT',
+      audit4: 'ISO/IEC 27001 SECURITY',
+      audit5: 'MULTIMODAL AI CORE'
+    },
+    stats: {
+      stat1Val: '10M+ Tokens/s',
+      stat1Label: 'TỐC ĐỘ XỬ LÝ CLOUD',
+      stat1Desc: 'Băng thông Multimodal AI',
+      stat2Val: '99.99%',
+      stat2Label: 'ĐỘ ỔN ĐỊNH HẠ TẦNG',
+      stat2Desc: 'SLA Uptime Đám mây',
+      stat3Val: '< 15ms',
+      stat3Label: 'ĐỘ TRỄ PHẢN HỒI API',
+      stat3Desc: 'High-Throughput SDK',
+      stat4Val: '6 Core Engines',
+      stat4Label: 'MÔ-ĐUN HỆ SINH THÁI',
+      stat4Desc: 'Video, Voice, Image, API...',
+      stat5Val: '100% Secure',
+      stat5Label: 'BẢO MẬT DỮ LIỆU',
+      stat5Desc: 'Quyền riêng tư & Bảo mật dữ liệu'
+    },
+    ecosystem: {
+      badge: 'HỆ SINH THÁI CÔNG NGHỆ AI',
+      title: 'HỆ SINH THÁI CÔNG NGHỆ DOMIX AI SUPER-APP.',
+      sub: 'Một hệ sinh thái đa ứng dụng toàn diện từ công cụ sáng tạo nội dung cá nhân đến hạ tầng tự động hóa cho doanh nghiệp.',
+      catAll: 'Tất cả sản phẩm',
+      catCreators: 'Nhà sáng tạo (Creators)',
+      catEcommerce: 'Thương mại điện tử (E-Commerce)',
+      catDevelopers: 'Lập trình viên (Developers)',
+      catEnterprise: 'Doanh nghiệp (Enterprise)',
+      btnModule: 'Khám phá mô-đun'
+    },
+    workflow: {
+      badge: 'QUY TRÌNH SẢN XUẤT 6 BƯỚC',
+      title: 'QUY TRÌNH KHỞI TẠO NỘI DUNG TỰ ĐỘNG.',
+      sub: 'Tích hợp toàn bộ các công đoạn sáng tạo vào một luồng xử lý đồng nhất.',
+      prev: '← Bước trước',
+      next: 'Bước tiếp theo →'
+    },
+    developer: {
+      badge: 'CỔNG KẾT NỐI LẬP TRÌNH VIÊN API',
+      title: 'KẾT NỐI HẠ TẦNG AI VỚI DOMIX API SDK.',
+      sub: 'Tích hợp trực tiếp năng lực AI vào phần mềm, web và ứng dụng di động của bạn.',
+      btnKeyGen: 'Tạo Key thử nghiệm'
+    },
+    legalTable: {
+      badge: 'HỒ SƠ PHÁP LÝ DOANH NGHIỆP',
+      title: 'THÔNG TIN DOANH NGHIỆP & BẢO HỘ THƯƠNG HIỆU',
+      sub: 'Thông tin đăng ký kinh doanh chính thức và minh bạch của CÔNG TY TNHH CÔNG NGHỆ DOMIX.',
+      brandLabel: 'Tên thương hiệu chính thức',
+      nameViLabel: 'Tên doanh nghiệp (Tiếng Việt)',
+      nameEnLabel: 'Tên doanh nghiệp (Tiếng Anh)',
+      taxLabel: 'Mã số doanh nghiệp / Mã số thuế',
+      repLabel: 'Người đại diện theo pháp luật',
+      addressLabel: 'Địa chỉ trụ sở đăng ký',
+      emailLabel: 'Email liên hệ chính thức',
+      phoneLabel: 'Hotline / Điện thoại',
+      websiteLabel: 'Trang thông tin điện tử (Website)'
+    },
+    mobileApp: {
+      badge: 'ỨNG DỤNG DI ĐỘNG SÁNG TẠO',
+      title: 'DOMIX TRONG TẦM TAY BẠN.',
+      sub: 'Ứng dụng di động DOMIX AI đưa toàn bộ năng lực sáng tạo lên điện thoại iOS và Android.',
+      scanText: 'Quét mã QR để trải nghiệm bản di động chính thức',
+      storeStatus: 'Tương thích hoàn hảo trên các nền tảng di động',
+      linkPrivacy: 'Privacy Policy URL',
+      linkDeleteAccount: 'Trang Yêu cầu Xóa tài khoản (/legal/delete-account)'
+    },
+    footer: {
+      companyTitle: 'CÔNG TY',
+      productsTitle: 'SẢN PHẨM',
+      resourcesTitle: 'TÀI NGUYÊN',
+      legalTitle: 'PHÁP LÝ & BẢO MẬT',
+      copyRight: '© 2026 CÔNG TY TNHH CÔNG NGHỆ DOMIX. Tất cả quyền được bảo lưu.'
+    }
+  },
+  en: {
+    nav: {
+      brandSub: 'AI TECHNOLOGY COMPANY',
+      home: 'Home',
+      ecosystem: 'Ecosystem',
+      products: 'Products',
+      solutions: 'Solutions',
+      technology: 'Technology',
+      business: 'Enterprise',
+      about: 'About DOMIX',
+      support: 'Support',
+      contact: 'Contact',
+      exploreBtn: 'Explore DOMIX AI',
+      dropdownWorkspace: 'DOMIX AI Workspace',
+      dropdownWorkspaceSub: 'AI Creative Super-App',
+      dropdownStudio: 'AI Video & Voice Studio',
+      dropdownStudioSub: '4K Render & Neural TTS',
+      dropdownMobile: 'DOMIX Mobile App',
+      dropdownMobileSub: 'Experience on iOS & Android'
+    },
+    hero: {
+      laurelBadge: 'ENTERPRISE SECURITY & RELIABILITY — ISO/IEC & Encrypted Data',
+      heroTagline: 'THE MOST POWERFUL AI PLATFORM, POWERED BY DOMIX AI CORE',
+      heroTitle1: 'Inside-Out Protection',
+      heroTitle2: 'for Digital Content & Workflows.',
+      heroSub: 'DOMIX develops intelligent AI technology solutions helping creators, individuals, and digital enterprises optimize content production, automation, and operations.',
+      btnMobileApp: 'Download DOMIX Mobile',
+      btnMobileAppSub: 'Mobile App (iOS / Android)',
+      btnDesktopApp: 'Explore DOMIX Desktop',
+      btnDesktopAppSub: 'Web Platform & Workspace',
+      auditedTitle: 'Enterprise cloud infrastructure & data privacy protection',
+      audit1: 'SSL 256-BIT ENCRYPTED',
+      audit2: 'ENTERPRISE CLOUD SLAs',
+      audit3: 'DATA PRIVACY COMPLIANT',
+      audit4: 'ISO/IEC 27001 SECURITY',
+      audit5: 'MULTIMODAL AI CORE'
+    },
+    stats: {
+      stat1Val: '10M+ Tokens/s',
+      stat1Label: 'CLOUD PROCESSING SPEED',
+      stat1Desc: 'Multimodal AI Bandwidth',
+      stat2Val: '99.99%',
+      stat2Label: 'INFRASTRUCTURE STABILITY',
+      stat2Desc: 'Cloud SLA Uptime',
+      stat3Val: '< 15ms',
+      stat3Label: 'API LATENCY',
+      stat3Desc: 'High-Throughput SDK',
+      stat4Val: '6 Core Engines',
+      stat4Label: 'ECOSYSTEM MODULES',
+      stat4Desc: 'Video, Voice, Image, API...',
+      stat5Val: '100% Secure',
+      stat5Label: 'DATA SECURITY',
+      stat5Desc: 'Privacy & Data Protection'
+    },
+    ecosystem: {
+      badge: 'PRODUCT ECOSYSTEM',
+      title: 'THE DOMIX AI SUPER-APP ECOSYSTEM.',
+      sub: 'A comprehensive multi-application ecosystem bridging personal creative tools and enterprise automation.',
+      catAll: 'All Products',
+      catCreators: 'Creators',
+      catEcommerce: 'E-Commerce',
+      catDevelopers: 'Developers',
+      catEnterprise: 'Enterprise',
+      btnModule: 'Explore Module'
+    },
+    workflow: {
+      badge: '6-STEP AUTOMATED PIPELINE',
+      title: 'AUTOMATED CONTENT GENERATION FLOW.',
+      sub: 'Integrating all creative stages into one unified processing pipeline.',
+      prev: '← Previous Step',
+      next: 'Next Step →'
+    },
+    developer: {
+      badge: 'DEVELOPER API SDK GATEWAY',
+      title: 'CONNECT AI INFRASTRUCTURE WITH DOMIX API SDK.',
+      sub: 'Integrate DOMIX AI capabilities directly into your software, web, and mobile apps.',
+      btnKeyGen: 'Generate Test Key'
+    },
+    legalTable: {
+      badge: 'LEGAL PROFILE & CORPORATE CREDENTIALS',
+      title: 'LEGAL & COMPANY INFORMATION',
+      sub: 'Official business registration details of DOMIX TECHNOLOGY COMPANY LIMITED.',
+      brandLabel: 'Official Brand Name',
+      nameViLabel: 'Legal Entity Name (Vietnamese)',
+      nameEnLabel: 'Legal Entity Name (English)',
+      taxLabel: 'Business Registration / Tax Code',
+      repLabel: 'Legal Representative',
+      addressLabel: 'Registered Corporate Address',
+      emailLabel: 'Official Contact Email',
+      phoneLabel: 'Hotline / Phone Number',
+      websiteLabel: 'Official Corporate Website'
+    },
+    mobileApp: {
+      badge: 'CREATIVE MOBILE APP',
+      title: 'DOMIX IN YOUR POCKET.',
+      sub: 'DOMIX AI Mobile App brings full AI creative power to your iOS and Android devices.',
+      scanText: 'Scan QR Code to experience official mobile version',
+      storeStatus: 'Fully compatible across mobile platforms',
+      linkPrivacy: 'Privacy Policy URL',
+      linkDeleteAccount: 'Account Deletion Request (/legal/delete-account)'
+    },
+    footer: {
+      companyTitle: 'COMPANY',
+      productsTitle: 'PRODUCTS',
+      resourcesTitle: 'RESOURCES',
+      legalTitle: 'LEGAL & SECURITY',
+      copyRight: '© 2026 DOMIX TECHNOLOGY COMPANY LIMITED. All rights reserved.'
+    }
+  }
+};
