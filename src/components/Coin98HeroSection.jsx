@@ -2,9 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Smartphone, Monitor, Award, CheckCircle2, Sparkles, Shield, Cpu, Lock, ArrowRight, ExternalLink, Globe } from 'lucide-react';
 import { translations } from '../i18n/translations';
 import domixLogoImg from '../assets/domix_official_logo.png';
-
-const domixOrbImg = "/assets/domix_ocean_water_orb.png";
-const domixOrbFallback = "/@fs/C:/Users/Admin/.gemini/antigravity/brain/8dc7a5a2-68aa-468c-8c25-5e3b6c9ed633/domix_ocean_water_seamless_1788775787435.png";
+import domixOrbImg from '../assets/domix_ocean_water_orb.png';
 
 export default function Coin98HeroSection({ onNavigate, lang }) {
   const canvasRef = useRef(null);
@@ -401,7 +399,6 @@ export default function Coin98HeroSection({ onNavigate, lang }) {
               {/* 3D High-Res Seamless Ocean Water Orb Render with Large Glowing DOMIX Text */}
               <img
                 src={domixOrbImg}
-                onError={(e) => { e.currentTarget.src = domixOrbFallback; }}
                 alt="DOMIX Seamless 3D Ocean Water Bubble Orb"
                 className="w-full h-full object-contain rounded-full filter drop-shadow-[0_0_80px_rgba(251,191,36,0.6)] animate-float mix-blend-screen"
                 style={{

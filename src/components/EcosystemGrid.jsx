@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { Sparkles, Video, Image as ImageIcon, Mic, FileText, Settings, Code, ArrowRight, CheckCircle2, Layers, ShoppingBag, ExternalLink } from 'lucide-react';
 import { translations } from '../i18n/translations';
 import domixLogoImg from '../assets/domix_official_logo.png';
-
-const shoptikLogoImg = "/assets/shoptik_logo.png";
-const shoptikLogoFallback = "/@fs/C:/Users/Admin/.gemini/antigravity/brain/8dc7a5a2-68aa-468c-8c25-5e3b6c9ed633/media__1788776524016.png";
+import shoptikLogoImg from '../assets/shoptik_logo.png';
+import domixaiLogoImg from '../assets/domixai_logo.png';
 
 
 export default function EcosystemGrid({ onNavigate, lang, theme }) {

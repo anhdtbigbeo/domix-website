@@ -51,7 +51,7 @@ function run(cmd) {
 console.log("--> Initializing and pushing code to anhdtbigbeo/domix-website.git...");
 run('init');
 run('add .');
-run('commit -m "Deploy DOMIX Website for domixios.com"');
+run('commit -m "Fix 3D Ocean Water Orb asset imports and image paths for production"');
 run('branch -M main');
 run('remote remove origin');
 run('remote add origin https://github.com/anhdtbigbeo/domix-website.git');
