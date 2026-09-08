@@ -39,6 +39,10 @@ filesToCopy.forEach(item => {
     item.destNames.forEach(name => {
       fs.copyFileSync(item.src, path.join(publicAssets, name));
       fs.copyFileSync(item.src, path.join(srcAssets, name));
+      if (name === 'domix_official_logo.png') {
+        fs.copyFileSync(item.src, path.join(__dirname, 'public', 'favicon.ico'));
+        fs.copyFileSync(item.src, path.join(__dirname, 'public', 'favicon.png'));
+      }
       console.log(`[Asset Copier] Copied ${name} successfully.`);
     });
   } else {
