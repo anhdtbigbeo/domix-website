@@ -226,10 +226,10 @@ export default function Coin98HeroSection({ onNavigate, lang }) {
       <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
-          {/* LEFT COLUMN */}
-          <div className="lg:col-span-7 space-y-7 text-center lg:text-left">
+          {/* LEFT COLUMN: HEADLINE & BADGES */}
+          <div className="lg:col-span-7 space-y-7 text-center lg:text-left flex flex-col justify-center">
             
             {/* Top Security & Verification Laurel Badge */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2">
@@ -248,7 +248,7 @@ export default function Coin98HeroSection({ onNavigate, lang }) {
             </p>
 
             {/* Main Headline */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1] text-sharp-crisp">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15] lg:leading-[1.1] text-sharp-crisp">
               {t.heroTitle1} <br />
               <span className="text-gold-leaf animate-pulse-glow">
                 {t.heroTitle2}
@@ -259,6 +259,27 @@ export default function Coin98HeroSection({ onNavigate, lang }) {
             <p className="text-sm sm:text-base text-zinc-100 max-w-2xl mx-auto lg:mx-0 leading-relaxed text-sharp-crisp font-semibold">
               {t.heroSub}
             </p>
+
+            {/* MOBILE ONLY 3D OCEAN WATER ORB PREVIEW (Visible on mobile between headline and CTAs) */}
+            <div className="block lg:hidden my-4 py-2">
+              <div 
+                className="relative w-72 h-72 sm:w-80 sm:h-80 mx-auto aspect-square flex items-center justify-center transition-transform duration-300 ease-out rounded-full overflow-hidden"
+                style={{
+                  maskImage: 'radial-gradient(circle at center, black 42%, transparent 62%)',
+                  WebkitMaskImage: 'radial-gradient(circle at center, black 42%, transparent 62%)',
+                }}
+              >
+                <img
+                  src={domixOrbImg}
+                  alt="DOMIX Seamless 3D Ocean Water Bubble Orb Mobile"
+                  className="w-full h-full object-contain rounded-full filter drop-shadow-[0_0_60px_rgba(251,191,36,0.65)] animate-float mix-blend-screen"
+                  style={{
+                    maskImage: 'radial-gradient(circle at center, black 40%, transparent 60%)',
+                    WebkitMaskImage: 'radial-gradient(circle at center, black 40%, transparent 60%)',
+                  }}
+                />
+              </div>
+            </div>
 
             {/* INTERACTIVE AI LAUNCH CONTROL PORTAL */}
             <div className="glass-panel p-4 sm:p-5 rounded-3xl border border-amber-400/30 shadow-xl space-y-4 text-left bg-white/[0.02] backdrop-blur-md">
@@ -385,8 +406,8 @@ export default function Coin98HeroSection({ onNavigate, lang }) {
 
           </div>
 
-          {/* RIGHT COLUMN: 3D GALAXY WATER BUBBLE ORB WITH ARTISTIC PARALLAX & LEVITATION */}
-          <div className="lg:col-span-5 flex justify-center">
+          {/* DESKTOP COLUMN: 3D GALAXY WATER BUBBLE ORB WITH ARTISTIC PARALLAX & LEVITATION */}
+          <div className="hidden lg:flex lg:col-span-5 justify-center">
             <div 
               className="relative w-full max-w-lg aspect-square flex items-center justify-center transition-transform duration-300 ease-out rounded-full overflow-hidden"
               style={{
